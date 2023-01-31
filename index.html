@@ -263,7 +263,7 @@ $(document).ready(function(){
 		
 		$("div#status").html('<img src="./VoiceForge _ Demo_files/ajax_loader.gif" />');
 		
-		var params = {"voiceText":text, "voice":voice, "createTime":(new Date()).getTime()};, "rate":$("select#rate option:selected").val(), "pitch":$("select#pitch option:selected").val(), "sfx":$("select#effect option:selected").val()};
+		var params = {"voiceText":text, "voice":voice, "createTime":(new Date()).getTime()};
 		
 		$.get(url, params, function(data){
 			
